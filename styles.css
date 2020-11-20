@@ -1,0 +1,312 @@
+html {
+    height: 1024px;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.menu {
+    background-image: url(img/backgroundblur.jpg);
+}
+
+.container {
+    color: #FFFFFF;
+}
+
+.table {
+    color: #FFFFFF;
+    margin-top: 15%;
+    text-align: center;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+}
+
+.sum {
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-left: 13.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.descriptionAbout {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #f7f7f9;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    vertical-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.navbar-nav {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-nav>li {
+    float: none;
+    display: table-cell;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.descriptionWelcomeLine1 {
+    position: absolute;
+    width: 788px;
+    height: 34px;
+    left: 63px;
+    top: 280px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 17px;
+    color: #f7f7f9;
+}
+
+.descriptionWelcomeLine2 {
+    position: absolute;
+    width: 579px;
+    height: 131px;
+    left: 63px;
+    top: 400px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #dddddd
+}
+
+.buttonMenu {
+    position: absolute;
+    width: 490px;
+    height: 60px;
+    left: 63px;
+    top: 550px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: rgba(27, 72, 26, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textInLineLongWords {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.textInLineLongWords p {
+    position: absolute;
+    left: 36%;
+    top: 25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textInLineLongWords p:before {
+    width: 512px;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #ffffff;
+    top: 50%;
+    right: 600px;
+}
+
+.textInLineLongWords p:after {
+    width: 512px;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #FFFFFF;
+    top: 50%;
+    left: 600px;
+}
+
+form {
+    position: absolute;
+    height: 100%;
+    width: 530.92px;
+    left: 45px;
+    top: 289px;
+    color: #FFFFFF;
+}
+
+.buttonOrder {
+    position: absolute;
+    width: 232px;
+    height: 36px;
+    top: 430px;
+    color: #FFFFFF;
+    background: rgba(27, 72, 26, 0.85);
+    border: 1px solid rgba(27, 72, 26, 0.85);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.buttonMakeOrder {
+    position: absolute;
+    width: 232px;
+    height: 50px;
+    left: 180px;
+    color: #FFFFFF;
+    background: rgba(27, 72, 26, 0.85);
+    border: 1px solid rgba(27, 72, 26, 0.85);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardMenu {
+    position: absolute;
+    width: 320px;
+    height: 412px;
+    left: 60px;
+    top: 256px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textInLine {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.textInLine p {
+    position: absolute;
+    left: 42%;
+    top: 25%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.textInLine p:before {
+    width: 512px;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #ffffff;
+    top: 50%;
+    right: 400px;
+}
+
+.textInLine p:after {
+    width: 512px;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #FFFFFF;
+    top: 50%;
+    left: 400px;
+}
+
+.cardMenuPastaTop {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    left: 67px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.cardMenuPastaBottom {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    left: 67px;
+    top: 626px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.card-text {
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    top: 290px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCards {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    width: 260px;
+    height: 30px;
+    background-color: #1b481a;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -5,14 +5,12 @@ html {
 body {
     background-image: url(img/background.jpg);
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
 body.backwithblur {
     background-image: url(img/backgroundblur.jpg);
-}
-
-.container {
-    color: #FFFFFF;
+    font-style: normal;
 }
 
 .table {
@@ -20,7 +18,6 @@ body.backwithblur {
     margin-top: 15%;
     text-align: center;
     line-height: 1.5;
-    font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 17px;
@@ -29,8 +26,7 @@ body.backwithblur {
 .sum {
     color: #FFFFFF;
     line-height: 1.5;
-    margin-left: 13.5%;
-    font-style: normal;
+    margin-left: 14%;
     font-weight: 400;
     font-size: 36px;
 }
@@ -51,13 +47,9 @@ body.backwithblur {
 nav {
     background-color: #f7f7f9;
     opacity: 0.7;
-    position: absolute;
     width: 100%;
     height: 75px;
-    left: 0px;
-    top: 0px;
     vertical-align: center;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 16px;
@@ -70,46 +62,38 @@ nav {
 }
 
 .navbar-nav>li {
-    float: none;
     display: table-cell;
     text-align: center;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 16px;
 }
 
+.descriptionWelcome {
+    margin: 280px 63px;
+}
+
 .descriptionWelcomeLine1 {
-    width: 788px;
-    height: 34px;
-    margin-left: 63px;
-    margin-top: 280px;
-    font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 17px;
-    color: #f7f7f9;
+    color: #FFFFFF;
 }
 
 .descriptionWelcomeLine2 {
-    position: absolute;
     width: 579px;
     height: 131px;
-    margin-top: 10px;
-    margin-left: 63px;
-    font-style: normal;
+    margin-top: 60px;
     font-weight: 200;
     font-size: 48px;
     line-height: 1.5;
-    color: #dddddd
+    color: #dddddd;
 }
 
 .buttonMenu {
     width: 490px;
     height: 60px;
-    margin-left: 63px;
-    margin-top: 200px;
-    font-style: normal;
+    margin-top: 50px;
     font-weight: normal;
     font-size: 36px;
     line-height: 21px;
@@ -132,7 +116,6 @@ nav {
     left: 36%;
     top: 25%;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 16px;
@@ -159,11 +142,9 @@ nav {
 }
 
 form {
-    position: absolute;
     height: 100%;
     width: 530.92px;
-    left: 45px;
-    top: 289px;
+    margin: 220px 55px;
     color: #FFFFFF;
 }
 
@@ -175,7 +156,6 @@ form {
     border: 1px solid rgba(27, 72, 26, 0.85);
     box-sizing: border-box;
     border-radius: 4px;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
@@ -185,14 +165,13 @@ form {
 .buttonMakeOrder {
     position: absolute;
     width: 232px;
-    height: 50px;
-    left: 180px;
+    height: 30px;
+    left: 190px;
     color: #FFFFFF;
     background: rgba(27, 72, 26, 0.85);
     border: 1px solid rgba(27, 72, 26, 0.85);
     box-sizing: border-box;
     border-radius: 4px;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -211,7 +190,6 @@ form {
 }
 
 .card-title {
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 19px;
@@ -231,7 +209,6 @@ form {
     position: absolute;
     left: 42%;
     top: 25%;
-    font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 16px;
@@ -285,7 +262,6 @@ form {
     width: 280px;
     height: 24px;
     top: 290px;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;

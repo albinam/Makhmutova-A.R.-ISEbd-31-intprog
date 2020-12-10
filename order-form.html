@@ -14,6 +14,27 @@
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(70197007, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/70197007" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -57,22 +78,23 @@
     <form>
         <div class="form-group">
             <label for="InputName">ФИО</label>
-            <input type="text" class="form-control" id="InputName">
+            <input type="text" class="form-control" placeholder="Введите ФИО" name="FIO" id="InputName">
         </div>
         <div class="form-group">
             <label for="leInputPhone">Номер телефона</label>
-            <input type="text" class="form-control" id="InputPhone">
+            <input type="text" class="form-control" placeholder="Введите номер телефона" name="phone" id="InputPhone">
         </div>
         <div class="form-group">
             <label for="InputAdress">Адрес доставки</label>
-            <input type="text" class="form-control" id="InputAdress">
+            <input type="text" class="form-control" placeholder="Введите адрес доставки" name="addres" id="InputAdress">
         </div>
         <div class="form-group">
             <label for="FormControlTextareaComment">Комментарии к заказу</label>
-            <textarea class="form-control" id="FormControlTextareaComment" rows="3"></textarea>
+            <textarea class="form-control" id="FormControlTextareaComment" placeholder="По желанию, добавьте комментарий" name="comment" rows="3"></textarea>
         </div>
         <button type="submit" class="buttonOrder">заказать</button>
     </form>
+    <script src="js/site.js"></script>
 </body>
 
 </html>
